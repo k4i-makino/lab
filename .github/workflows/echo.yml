@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo
-      - run: echo "main here"
+        run: echo "main here"
 
