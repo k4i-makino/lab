@@ -1,0 +1,15 @@
+name: echo
+
+on:
+  pull_request:
+    types: [opened]
+  workflow_dispatch:
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo
+      - run: |
+          echo "Hello, world!"
+
